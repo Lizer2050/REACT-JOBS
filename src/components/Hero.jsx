@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = ({
     // Creating props (attributes)
-    title = 'Become a React Girl',
+    title = 'Become a React Developer',
     subtitle = 'Find the React job that fits your skills and needs',
 }) => {
   return (
