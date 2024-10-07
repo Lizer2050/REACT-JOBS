@@ -1,0 +1,21 @@
+1. VITE.SVG: This is just a picture of vite icon that will be displayed by the heading if the react app.
+
+2. APP.CSS: THIS IS USED TO STYLE COMPONENTS OR ELEMENTS IN THE ROOT WHICH IS THE REACT APP.JSX
+
+3. INDEX.CSS: A global sheet that contains styles that apply to the entire app. 
+
+4. MAIN.JSX: SERVES AS AN ENTRY POINT AND MOUNTS YOUR REACT APPLICATION ON THE DOM. The app is mounted on specific DOM element, usually a <div> with an id="root" inside index.html.
+
+5. ESLINTRC.CJS: THIS IS USED TO CONFIGURE ESLINT.
+
+6. INDEX.HTML:  THIS IS THE FILE THAT CREATES THE ROOT ELEMENT FOR YOUR REACT APP TO MOUNT ON.
+
+7. PACKAGE-LOCK.JSON: THIS IS USED TO LOCK THE EXACT VERSIONS OF ALL DEPENDENCIES (AND THEIR SUB-DEPENDENCIES) INSTALLED IN YOUR PROJECT. It ensures that every time someone installs your project’s dependencies, they will get the exact same versions that were installed when the package-lock.json was generated.
+
+8. PACKAGE.JSON: This file lists the project’s direct dependencies with version ranges, like "react": "^17.0.0". It tells npm what packages your project needs to work.
+
+9. POSTCSS.CONFIG.JS: A file is used to configure PostCSS, a tool for transforming CSS with JavaScript plugins.
+
+10. VITE.CONFIG.JS: A file is used to configure various settings related to how the app is built, served, and optimized.
+
+11. SRC: The source directory that contains all of the code and resources related to the actual application itself. The main working director for development. 
