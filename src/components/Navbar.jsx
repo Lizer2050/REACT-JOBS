@@ -1,16 +1,17 @@
 import React from 'react'
 import logo from '../assets/images/logo.png'
+import calasset from '../assets/images/calasset.png'
 import {NavLink} from 'react-router-dom' // importing NavLink tag
 
 
 const Navbar = () => {
 
   // Creating a function for the Link style
-  const linkClass = ({isActive}) => isActive ? 'bg-black text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2': 'text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'
+  const linkClass = ({isActive}) => isActive ? 'bg-[#f5a625] text-white hover:bg-[#f9dc23] hover:text-white rounded-md px-3 py-2': 'text-[#f5a625] hover:bg-[#f9dc23] hover:text-white rounded-md px-3 py-2'
 
 
   return (
-    <nav className="bg-indigo-700 border-b border-indigo-500">
+    <nav className="bg-white  border-b">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div
@@ -19,13 +20,13 @@ const Navbar = () => {
             {/* <!-- Logo --> */}
             <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
               <img
-                className="h-10 w-auto"
-                src={logo}
-                alt="React Jobs"
+                className="h-[60px] w-auto"
+                src={calasset}
+                alt="Cal Asset"
               />
-              <span className="hidden md:block text-white text-2xl font-bold ml-2"
+              {/* <span className="hidden md:block text-[#f5a625] text-2xl font-bold ml-2"
                 >React Jobs</span
-              >
+              > */}
             </NavLink>
             
             <div className="md:ml-auto">
@@ -38,14 +39,14 @@ const Navbar = () => {
                 </NavLink>
                 
                 <NavLink
-                  to="/jobs"
+                  to="/jobs" ///jobs
                   className={linkClass}
-                  >Jobs</NavLink>
+                  >Products</NavLink>
                 
                 <NavLink
-                  to="/add-job"
+                  to="/add-job" ///add-job
                   className={linkClass}
-                  >Add Job</NavLink>
+                  >Log In</NavLink>
                 
               </div>
             </div>
@@ -58,3 +59,11 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
+{/* [#f9dc23] - Yellow*/}
+
+{/* f5a625 - Orange */}

@@ -10,8 +10,8 @@ const HomePage = () => {
     {/* Home Page components */}
         <Hero />
         <HomeCards /> {/* Wrapper Component */}
-        <JobListings isHome = {true} /> {/* The file that loops through the array in the json file */}
-        <ViewAllJobs /> 
+        {/* <JobListings isHome = {true} /> The file that loops through the array in the json file */}
+        {/* <ViewAllJobs />  */}
     </>
   )
 }
